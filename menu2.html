@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Menu</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="The Venue template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="plugins/jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/menu.css">
+<link rel="stylesheet" type="text/css" href="styles/menu_responsive.css">
+<link rel="shortcut icon" href="imagenes/logo.png">
+<link rel='stylesheet' id='BNS-Corner-Logo-Style-css'  href='social_icons_from_Techandallcom.css' type='text/css' media='screen' />
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="logo">
+							<a href="#">
+								<img src="imagenes/logo2.png" style="height: 80px; border-image: black 5px solid;">
+							</a>
+						</div>
+						<nav class="main_nav">
+							<ul class="d-flex flex-row align-items-center justify-content-start">
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="carta.html">Nuestra Carta</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #730217;">
+							          <a class="dropdown-item" href="menu1.html">Comida</a>
+							          <a class="dropdown-item" href="menu2.html">Bebidas</a>
+							          <a class="dropdown-item" href="menu3.html">Restaurant</a>
+							        </div>
+							     </li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mixology</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #730217;">
+								          <a class="dropdown-item" href="mixology.html">Pacha Mixology</a>
+							        	<div class="dropdown-divider"></div>
+								          <a class="dropdown-item" href="clasico.html">Bar Clasico</a>
+								          <a class="dropdown-item" href="vip.html">Bar VIP</a>
+								        <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="galeriabar.html">Galeria</a>
+							        </div>
+							     </li>
+								<li><a href="#mapa">Ubicanos</a></li>
+							</ul>
+						</nav>
+						<div class="reservations_phone ml-auto">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item buttons_container ">
+									<div class="button button_3">
+										<a href="tel:+51941447264" style="color: white;">Whatsapp</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Hamburger -->
+	
+	<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+		<div class="hamburger">
+			<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+				<span>Menu</span>
+				<div class="hamburger_container">
+					<div class="menu_hamburger">
+						<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+						<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Menu -->
+
+	<div class="menu trans_800">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<ul>
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="carta.html">Nuestra Carta</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #730217;">
+							          <a class="dropdown-item" href="menu1.html">Comida</a>
+							          <a class="dropdown-item" href="menu2.html">Bebidas</a>
+							          <a class="dropdown-item" href="menu3.html">Restaurant</a>
+							        </div>
+							     </li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mixology</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #730217;">
+								          <a class="dropdown-item" href="mixology.html">Pacha Mixology</a>
+							        	<div class="dropdown-divider"></div>
+								          <a class="dropdown-item" href="clasico.html">Bar Clasico</a>
+								          <a class="dropdown-item" href="vip.html">Bar VIP</a>
+								        <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="galeriabar.html">Galeria</a>
+							        </div>
+							     </li>
+								<li><a href="#mapa">Ubicanos</a></li>
+			</ul>
+		</div>
+		<div class="menu_reservations_phone ml-auto buttons_container">
+			<div class="button button_3">
+				<a href="tel:+51941447264" style="color: white;">Reservar!</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="imagenes/bebidas/11.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_subtitle page_subtitle">Pacha Restaurant</div>
+							<div class="home_title"><h1>Nuestras Bebidas</h1></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<!-- Galeria -->
+
+	<div class="container" id="bebidas">
+		<div class="card-columns">
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal1">
+					<img src="imagenes/bebidas/1.jpg" class="card-img-top">
+				</a>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/1.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal2">
+					<img src="imagenes/bebidas/2.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/2.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal3">
+					<img src="imagenes/bebidas/3.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/3.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal4">
+					<img src="imagenes/bebidas/4.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/4.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal5">
+					<img src="imagenes/bebidas/5.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/5.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal6">
+					<img src="imagenes/bebidas/6.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/6.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal7">
+					<img src="imagenes/bebidas/7.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/7.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal8">
+					<img src="imagenes/bebidas/8.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/8.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal9">
+					<img src="imagenes/bebidas/9.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/9.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal10">
+					<img src="imagenes/bebidas/10.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/10.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal11">
+					<img src="imagenes/bebidas/11.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/11.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal12">
+					<img src="imagenes/bebidas/12.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/12.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal13">
+					<img src="imagenes/bebidas/13.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/13.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal14">
+					<img src="imagenes/bebidas/14.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/14.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+						<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal15">
+					<img src="imagenes/bebidas/15.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/15.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal16">
+					<img src="imagenes/bebidas/16.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/16.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal17">
+					<img src="imagenes/bebidas/17.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/17.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal18">
+					<img src="imagenes/bebidas/18.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/18.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal19">
+					<img src="imagenes/bebidas/19.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/19.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal20">
+					<img src="imagenes/bebidas/20.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/20.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal21">
+					<img src="imagenes/bebidas/21.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/21.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal22">
+					<img src="imagenes/bebidas/22.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/22.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal23">
+					<img src="imagenes/bebidas/23.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal23" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/23.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+			<div class="card">
+				<a href="" data-toggle="modal" data-target="#exampleModal24">
+					<img src="imagenes/bebidas/24.jpg" class="card-img-top">
+				</a>
+			</div>
+			<div class="modal fade" id="exampleModal24" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  	<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+			  		<span aria-hidden="true">&times;</span>
+			  	</button>
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<img src="imagenes/bebidas/24.jpg" class="img-fluid rounded">			    
+				</div>
+			</div>
+		</div>
+	</div>						
+	</div>
+	<hr>
+
+	<!-- Reservations -->
+
+	<div class="reservations text-center">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="imagenes/editados/intro/bebidas.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="reservations_content d-flex flex-column align-items-center justify-content-center">
+						<div class="res_stars page_subtitle">5 Stars</div>
+						<div class="res_title"> ____ Reservar ____ </div>
+						<div class="res_form_container">
+							<form action="#" id="res_form" class="res_form">
+								<div class="d-flex flex-sm-row flex-column align-items-center justify-content-start">
+									<input type="text" id="datepicker" class="res_input" required="required">
+									<input type="text" class="res_input timepicker" required="required">
+									<select class="res_select">
+										<option disabled="" selected="">1 personas</option>
+										<option>2 personas</option>
+										<option>3 personas</option>
+										<option>4 personas</option>
+										<option>5 personas</option>
+										<option>6 personas</option>
+										<option>7 personas</option>
+										<option>8 personas</option>
+										<option>9 personas</option>
+										<option>10 personas</option>
+										<option>11 personas</option>
+										<option>12 personas</option>
+										<option>13 personas</option>
+										<option>14 personas</option>
+										<option>15 personas</option>
+										<option>16 personas</option>
+										<option>17 personas</option>
+										<option>18 personas</option>
+										<option>19 personas</option>
+										<option>20 personas</option>
+										<option>21 personas</option>
+										<option>22 personas</option>
+										<option>23 personas</option>
+										<option>24 personas</option>
+										<option>25 personas</option>
+										<option>26 personas</option>
+										<option>27 personas</option>
+										<option>28 personas</option>
+										<option>29 personas</option>
+										<option>30 personas</option>
+										<option>31 personas</option>
+										<option>32 personas</option>
+										<option>33 personas</option>
+										<option>34 personas</option>
+										<option>35 personas</option>
+										<option>36 personas</option>
+										<option>37 personas</option>
+										<option>38 personas</option>
+										<option>39 personas</option>
+										<option>40 personas</option>
+									</select>
+								</div><br>
+								<button class="res_button">
+									<h2 style="background: : white;">
+										<a href="tel:+51941447264" style="color: white;">Reservar</a>
+									</h2>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer Logo -->
+				<div class="col-lg-3 footer_col">
+						<div class="logo">
+							<a href="index.html">
+								<img src="imagenes/logo2.png" style="height: 80px; border-image: black 5px solid;">
+							</a>
+						</div>
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<p style="line-height: 1.2;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los Derechos Reservador | Sitio Web Diseñado <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://www.facebook.com/vexpertos" target="_blank">Vexpertos</a></p>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+				</div>
+
+				<!-- Footer About -->
+				<div class="col-lg-6 footer_col">
+					<div class="footer_about">
+						<p>Cocina Tradicional | Cocina de Vanguardia | Cocina Molecular | Cervezas Artesanales | </p>
+					<div class="social-icons center-block" align="center">
+	  					<ul>
+	  						<li class="facebook" style="background-color: #f0f0f0">
+	  							<a href="https://www.facebook.com/PachitaGourmet" target="_blank">Facebook</a>
+	  						</li>
+	  						<li class="youtube" style="background-color: #f0f0f0">
+	  							<a href="https://www.youtube.com/channel/UC2csMrnJXBUVlPPL4ScE-OQ/" target="_blank">YouTube</a>
+	  						</li>
+	  						<li class="twitter" style="background-color: #f0f0f0">
+	  							<a href="https://twitter.com/fernand06613226" target="_blank">Twitter</a>
+	  						</li>
+	  						<li class="vimeo" style="background-color: #f0f0f0">
+								<a href="tel:+51941447264" target="_blank">WhatsApp</a>
+							</li>
+
+					  </ul>
+					</div>
+
+					</div>
+				</div>
+
+				<!-- Footer Contact -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_contact">
+						<ul>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">Dirección:</div></div>
+								<div class="footer_contact_text"><a href="#mapa">Jr. Puno 521</a></div>
+							</li>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">Teléfono:</div></div>
+								<div class="footer_contact_text"><a href="tel:+51351242">+051 351242</a></div>
+							</li>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">WhatsApp:</div></div>
+								<div class="footer_contact_text"><a href="tel:+51941447264">51 941 447264</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+<script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
